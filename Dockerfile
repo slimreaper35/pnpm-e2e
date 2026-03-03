@@ -4,11 +4,9 @@ COPY hermeto-output /tmp/hermeto-output
 
 WORKDIR /app
 
-COPY package.json pnpm-lock.yaml .
+COPY . .
 
-RUN pnpm install --ignore-scripts --frozen-lockfile --offline
-
-COPY index.js .
+RUN pnpm install --frozen-lockfile --offline
 
 EXPOSE 3000
 
