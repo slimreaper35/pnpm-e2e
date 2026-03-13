@@ -1,0 +1,4 @@
+npm:
+  proxy_url: http://127.0.0.1:8082/repository/npm-proxy/
+  proxy_login: admin
+  proxy_password: admin123
