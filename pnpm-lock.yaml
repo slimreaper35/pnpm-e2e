@@ -4,15 +4,13 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
-pnpmfileChecksum: sha256-L74FyoW9cPSA6Uap+o2tEhCt4S3e9PA8VJO45H3XJCI=
-
 importers:
 
   .:
     dependencies:
       '@hono/hono':
         specifier: jsr:^4.12.4
-        version: '@jsr/hono__hono@4.12.4'
+        version: '@jsr/hono__hono@4.12.7'
       express:
         specifier: ^5.2.1
         version: 5.2.1
@@ -52,8 +50,8 @@ packages:
   '@jridgewell/sourcemap-codec@1.5.5':
     resolution: {integrity: sha512-cYQ9310grqxueWbl+WuIUIaiUaDcj7WOq5fVhEljNVgRfOUhY9fy2zTvfoqWsnebh8Sl70VScFbICvJnLKB0Og==}
 
-  '@jsr/hono__hono@4.12.4':
-    resolution: {integrity: sha512-fxOSxFkBlmt2dNAvz2vIj8UmihKrkiyjsvU/A8yvHtd9Pt53WBUxsRbpzl8GXodwA0/63gXGxDFDb7XXcPQXbA==, tarball: https://npm.jsr.io/~/11/@jsr/hono__hono/4.12.4.tgz}
+  '@jsr/hono__hono@4.12.7':
+    resolution: {integrity: sha512-yKvUvGoLMnNHQk4hbwyAToXt/q91qMFeMH0YkzwkDoS5NL82gT7Zb7Jm+hlnUmLLwphiNrw9sba2TFS4MVxVAw==, tarball: https://npm.jsr.io/~/11/@jsr/hono__hono/4.12.7.tgz}
 
   '@vue/compiler-core@3.5.30':
     resolution: {integrity: sha512-s3DfdZkcu/qExZ+td75015ljzHc6vE+30cFMGRPROYjqkroYI5NV2X1yAMX9UeyBNWB9MxCfPcsjpLS11nzkkw==}
@@ -525,7 +523,7 @@ snapshots:
 
   '@jridgewell/sourcemap-codec@1.5.5': {}
 
-  '@jsr/hono__hono@4.12.4': {}
+  '@jsr/hono__hono@4.12.7': {}
 
   '@vue/compiler-core@3.5.30':
     dependencies:
